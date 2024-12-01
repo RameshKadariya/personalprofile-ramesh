@@ -428,3 +428,53 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+/* Featured Website styles */
+#featured-website {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#featured-website .position-relative {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#featured-website .btn-light {
+    background: white;
+    color: var(--primary);
+    font-weight: 500;
+    transform: translateY(20px);
+    transition: .5s;
+}
+
+#featured-website .position-relative:hover .btn-light {
+    transform: translateY(0);
+}
+
+#featured-website .img-fluid {
+    transition: transform 0.5s ease;
+}
+
+#featured-website .position-relative:hover .img-fluid {
+    transform: scale(1.02);
+}
+
+#featured-website .bg-opacity-25 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#featured-website .position-relative:hover .bg-opacity-25 {
+    opacity: 1;
+}
+
+#featured-website .border-start {
+    border-color: var(--primary) !important;
+}
+
+#featured-website .rounded {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
